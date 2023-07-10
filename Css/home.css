@@ -1,6 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap');
 
 *{
  
@@ -11,29 +9,30 @@
   --content-info-color: rgb(43, 187, 197);
   --font-family:  'Poppins', sans-serif;
   --background-color: darkcyan;
-  
 }
 
 .head-container {
  display: flex;
-justify-content: space-evenly;
+ justify-content: space-evenly;
+
 }
 
-.image{
-  max-width: 30%;
-   width: 6%;
+.contact-details{
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  gap: 0.rem;
 }
 
-.content{
-display: flex;
-align-items: center;
-font-family: var(--font-family);
-justify-content: space-evenly;
+.contact-details .contact-image{
+ max-width: 6%;
 }
 
-.content span{
+.contact-details span{
   color: var(--content-info-color);
 }
+
+
 
 .navbar{
  display: flex;
@@ -58,7 +57,7 @@ justify-content: space-evenly;
 }
 
 .navbar a:hover{
-  background-color: aqua;
+  background-color: grey;
 }
 
 .special-package{
