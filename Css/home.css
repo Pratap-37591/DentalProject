@@ -51,12 +51,12 @@
   padding: 1rem 3rem;
   }
 
-.navbar ul li a {
+.navbar ul  a li{
   text-decoration: none;
   color: white;
 }
 
-.navbar a:hover{
+.navbar ul li:hover{
   background-color: grey;
 }
 
